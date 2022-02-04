@@ -1,0 +1,139 @@
+:host ::ng-deep .mat-menu-item {
+  color:white!important;
+
+}
+
+.active-tab {
+background: #308483 !important;
+border: none !important;
+}
+
+
+.header_tab{
+background: linear-gradient(
+  92deg, #020024 0%, #55b971 0%, #27b2b4 100%, #00d4ff 72%);;
+}
+
+.header_tab mat-toolbar.mat-toolbar button{
+line-height: 19px;
+border-radius: 12px;
+font-size: 15px;
+border: 1px solid #fff;
+padding: 10px 20px;
+white-space: break-spaces;
+width: 100px;
+margin-right: 8px;
+}
+
+
+.header_tab mat-toolbar.mat-toolbar{
+    padding-bottom: 16px;
+    background: transparent;
+    margin-bottom: 10px;
+    overflow-y: auto;
+    border-bottom: 1px solid #fff;
+}
+.header_alter mat-toolbar.mat-toolbar{
+  padding-bottom: 16px;
+  background: transparent;
+  margin-bottom: unset !important;
+  border-bottom: unset !important;
+  overflow-y: auto;
+}
+
+#buttonToggle {
+  padding-left: 15px;
+  text-align: left;
+  padding-bottom: 37px;
+}
+
+#buttonToggle button{
+  padding: 2px 15px !important;
+  border: 0px;
+  text-transform: capitalize;
+  margin: 0px;
+  line-height: 30px;
+  display: inline-block;
+  height: auto;
+  top: 0px;
+  margin-right: 10px;
+}
+
+
+#buttonToggle #viewed{
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+
+#pending{
+    background-color: #308483;
+    border-radius: 25px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    border: 2px solid #dfdfdf;
+  }
+  #viewed {
+    background-color: #fff;
+    color: #9065cb;
+    margin-left: -22px;
+    height: 34px;
+    border-radius: 26px;
+    position: relative;
+    top: 5px;
+    font-size: 18px !important;
+    text-transform: uppercase;
+    padding: 0px 30px !important;
+  }
+
+button {
+      margin:0 auto;
+      display:block;
+}
+
+.header_tab h4{
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  padding: 0px 20px;
+}
+@media only screen and (min-width: 494px) {
+  .justify_content {
+    justify-content: center!important;
+  }
+}
+
+.header_tab {
+  overflow: hidden;
+  background-color: #2fc18b;
+}
+
+.header_tab a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.header_tab a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header_tab a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.header_tab {
+  margin-top: 10px !important;
+  position: absolute;
+  position: sticky;
+  top: 0;
+  z-index: 12;
+}

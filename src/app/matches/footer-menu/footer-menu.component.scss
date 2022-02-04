@@ -1,0 +1,38 @@
+#footerNav ul {
+  padding: 0;
+}
+
+@media only screen and (max-width: 430px) {
+  .footer_nav {
+    display: flex !important;
+    justify-content: space-around !important;
+  }
+}
+
+#footerNav li {
+  padding: 10px 10px 0px 10px;
+  list-style-type: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.fs-6 {
+  font-size: 0.75rem!important;
+}
+
+#footerNav li.active {
+  color: green;
+}
+
+#footerNav {
+  width: 100%;
+  z-index: 9;
+  position: fixed;
+  background: white;
+  bottom: 0px;
+}
+
+#footerNav img {
+  display: block;
+  margin: 3px auto;
+}

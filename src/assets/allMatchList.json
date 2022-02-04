@@ -1,0 +1,117 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Vidhya",
+            "age": 26,
+            "height": "5'9",
+            "degree": "BE",
+            "caste": "Vaniyar",
+            "city": "Puducherry",
+            "state": "Puducherry",
+            "isPrimeMember": true
+        },
+        {
+            "id": 2,
+            "name": "Aadhira",
+            "age": 24,
+            "height": "5'0",
+            "degree": "MSC",
+            "caste": "Chettiar",
+            "city": "Chennai",
+            "state": "Tamil Nadu",
+            "isPrimeMember": true
+        },
+        {
+            "id": 3,
+            "name": "Abinaya",
+            "age": 25,
+            "height": "5'5",
+            "degree": "BBA",
+            "caste": "Mudaliyar",
+            "city": "Cuddalore",
+            "state": "Tamil Nadu",
+            "isPrimeMember": false
+        },
+        {
+            "id": 4,
+            "name": "Maliga",
+            "age": 29,
+            "height": "5'8",
+            "degree": "MCA",
+            "caste": "Mudaliyar",
+            "city": "Panrooti",
+            "state": "Tamil Nadu",
+            "isPrimeMember": true
+        },
+        {
+            "id": 5,
+            "name": "Jashvika",
+            "age": 23,
+            "height": "5'8",
+            "degree": "B.Tech-CSC",
+            "caste": "Mudaliyar",
+            "city": "Salem",
+            "state": "Tamil Nadu",
+            "isPrimeMember": false
+        },
+        {
+            "id": 6,
+            "name": "Riya",
+            "age": 25,
+            "height": "5'2",
+            "degree": "B.E",
+            "caste": "Vellalar",
+            "city": "Tuticon",
+            "state": "Tamil Nadu",
+            "isPrimeMember": false
+        },
+        {
+            "id": 7,
+            "name": "Akshitha",
+            "age": 26,
+            "height": "5'5",
+            "degree": "BCA",
+            "caste": "Vaniyar",
+            "city": "Puducherry",
+            "state": "Puducherry",
+            "isPrimeMember": true
+        },
+        {
+            "id": 8,
+            "name": "Lavanya",
+            "age": 29,
+            "height": "5'2",
+            "degree": "BCA",
+            "caste": "Chettiar",
+            "city": "salem",
+            "state": "Tamil Nadu",
+            "isPrimeMember": false
+        },
+        {
+            "id": 9,
+            "name": "Vali",
+            "age": 28,
+            "height": "5'9",
+            "degree": "Msc",
+            "caste": "Mudaliyar",
+            "city": "Coimbatore",
+            "state": "Tamil Nadu",
+            "isPrimeMember": false
+        },
+        {
+            "id": 10,
+            "name": "Preethi",
+            "age": 26,
+            "height": "5'0",
+            "degree": "Bsc",
+            "caste": "Panrooti",
+            "city": "Cuddalore",
+            "state": "Tamil Nadu",
+            "isPrimeMember": true
+        }
+    ],
+    "matched": 2250,
+    "yetToView": 2010,
+    "viewed": 240
+}

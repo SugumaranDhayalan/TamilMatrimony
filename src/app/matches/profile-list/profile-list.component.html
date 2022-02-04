@@ -1,0 +1,50 @@
+<div id="listed-item" *ngIf="profileList.length > 0">
+    <div class="row mt-3">
+        <div class="col-9">
+            <h4>{{profileInfo?.yetToView | number}} Matches Yet To View</h4>
+            <p><i class="fa fa-info me-2" aria-hidden="true"></i>Only premium members can view full names</p>
+        </div>
+        <div class="col-3 text-end small_size" id="icons">
+            <i class="fa fa-sliders me-3" aria-hidden="true"></i>
+            <i class="fa fa-cog" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xxl-3 col-md-6 col-12" *ngFor="let item of profileList; index as i; trackBy: trackByIndex">
+            <div id="container">
+                <div class="d-flex" id="img-Contatiner">
+                    <div id="img_view" class="image_card" >
+                        <img src="https://picsum.photos/200/200?image={{ i + imageCount}}"
+                            alt="img_view">
+                        <div class="bgfocus"></div>
+                    </div>
+                    <div class="margin_start" id="desc-Container">
+                        <div class="verif_sec">
+                            <ul>
+                                <li class="verifi_opt"><img src="assets/images/shield.png" alt="img" />
+                                    Verified</li>
+                                <li *ngIf="item?.isPrimeMember" class="prime_opt"><img src="assets/images/prime.png"
+                                        alt="img" /> Prime Platinum</li>
+                            </ul>
+                        </div>
+                        <h3 id="name_class" id="blur">{{item?.name}}</h3>
+                        <h5 id="brief_class">{{item?.age}} yrs, {{item?.height}}", {{item?.degree}}, {{item?.caste}},
+                            {{item?.city}}, {{item?.state}}</h5>
+
+                    </div>
+                </div>
+                <ul class="share_identity">
+                    <li><img src="assets/images/whatsapp.png" alt="img" /> Whatsapp</li>
+                    <li><img src="assets/images/secure.png" alt="img" /> Don't Show</li>
+                    <li><img src="assets/images/shortlist.png" alt="img" /> Shortlist</li>
+                </ul>
+                <div class="link_sec">
+                    <p> Like her Profile? Connect Now
+                        <button><img src="assets/images/accept.png" alt="img" /></button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

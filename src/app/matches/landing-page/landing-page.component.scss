@@ -1,0 +1,35 @@
+#tabAllign{
+  margin: auto;
+  padding: 30px 20px;
+  padding-bottom: 20px;
+  display: flex;
+  width: fit-content;
+}
+
+#regularButton{
+  position: relative;
+  background-color: #308483;
+  border-radius: 25px;
+  z-index: 1;
+  color: #fff;
+  border: 2px solid #dfdfdf;
+}
+
+
+#primeButton {
+  background-color: #fff;
+  color: #9065cb;
+  font-size: 18px !important;
+  position: relative;
+  text-transform: uppercase;
+  border-radius: 26px;
+  margin-left: -22px;
+  top: 5px;
+  padding: 0px 30px !important;
+  height: 34px;
+}
+
+#header{
+  background: linear-gradient(
+    92deg, #020024 0%, #55b971 0%, #27b2b4 98%, #00d4ff 72%);;
+}

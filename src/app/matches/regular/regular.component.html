@@ -1,0 +1,29 @@
+<div class="header_tab mb-0" [ngClass]="{'header_alter': scrollDetect}">
+    <div class="row pt-3">
+        <div class="col-md-12">
+            <mat-toolbar class="justify_content">
+                <mat-nav-list class="list-horizontal">
+                    <mat-list-item>
+                        <button mat-menu-item id="allMatcheslist" [ngClass]="activeItem==='allMatchList' ? 'active-tab' : ''" (click)="getList('allMatchList')">All Matches</button>
+                    </mat-list-item>
+                    <mat-list-item>
+                        <button mat-menu-item id="newMatchesList" [ngClass]="activeItem==='newMatchesList' ? 'active-tab' : ''" (click)="getList('newMatchesList')">New Matches</button>
+                    </mat-list-item>
+                    <mat-list-item>
+                        <button mat-menu-item id="premiumList" [ngClass]="activeItem==='premiumList' ? 'active-tab' : ''" (click)="getList('premiumList')">Premium Members</button>
+                    </mat-list-item>
+                    <mat-list-item>
+                        <button mat-menu-item id="mutualMatches" [ngClass]="activeItem==='mutualMatches' ? 'active-tab' : ''" (click)="getList('mutualMatches')">Mutual Matches</button>
+                    </mat-list-item>
+                </mat-nav-list>
+            </mat-toolbar>
+        </div>
+    </div>
+    <h4 *ngIf="!scrollDetect" class="mt-3">{{profileInfo?.matched | number}} Matches based on your preferences</h4>
+    <div id="buttonToggle" *ngIf="!scrollDetect">
+        <button id="pending" mat-raised-button>{{profileInfo?.yetToView | number}} Yet To View</button>
+        <button id="viewed" mat-button>{{profileInfo?.viewed | number}} Viewed</button>
+    </div>
+</div>
+<app-profile-list *ngIf="!isLoading" [profileList]="profileList" [imageCount]="imageCount" [profileInfo]="profileInfo"></app-profile-list>
+<app-footer-menu *ngIf="!scrollDetect"></app-footer-menu>

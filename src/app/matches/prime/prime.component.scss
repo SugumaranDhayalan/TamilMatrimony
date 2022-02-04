@@ -1,0 +1,52 @@
+.bg-color {
+    background: #64447d;
+}
+#primeAccount {
+    color: #fff;
+}
+#primeAccount h4 {
+    margin-top: 80px;
+    line-height: 1.5;
+}
+#primeAccount li {
+    list-style-type: none;
+}
+#primeAccount p {
+    text-align: right;
+    font-size: 12px;
+}
+
+#primeAccount li::before {
+    content: url("../../../assets/images/star.png");
+    position: absolute;
+    left: 30px;
+}
+#primeAccount img {
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+#content {
+    background: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 30px;
+}
+#content button {
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: #ff9902;
+    border: none;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+#content h5 {
+    font-weight: 400;
+    margin-bottom: 25px;
+    color: #292929;
+}
+#content span {
+    color: #8231d6;
+    font-weight: 500;
+}

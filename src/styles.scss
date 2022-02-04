@@ -1,4 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "../node_modules/font-awesome/scss/font-awesome.scss";
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+section{
+    position: relative;
+}
+mat-nav-list.list-horizontal {
+    padding: 0;
+    .mat-list-item {
+      display: inline-block;
+      height: auto;
+      width: auto;
+    }
+  }
+  
+  .mat-toolbar-row, .mat-toolbar-single-row{
+    height: unset !important;
+  }
+  
+  .mat-list-item .mat-list-item-content {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  * { 
+    font-size: 1rem;
+  }

@@ -1,0 +1,23 @@
+<div class="container bg-color">
+    <div class="row">
+        <div class="col-lg-12" id="primeAccount">
+            <i class="fa fa-times fa-2x float-end mt-3" aria-hidden="true" (click)="close()"></i>
+            <h4 class="text-center fs-3">Introducing  <br> TamilMatrimony <span class="fs-1">PRIME</span></h4>
+            <h5 class="fs-5 mt-4 mb-2 ms-3">With <span>PRIME</span>  you get: </h5>
+            <ul class="fs-6 mb-1">
+                <li> 100% ID verified, high-quality profiles</li>
+                <li> Matches with photos and complete information</li>
+                <li> The finest and most trustworthy profiles to choose from</li>
+            </ul>
+            <p>*Patent Pending</p>
+        </div>
+        <div class="col-lg-12" id="content">
+            <h5>Be a part of <span>PRIME </span> for free with these simple steps:</h5>
+            <h6>Add your photo to join the exclusive club</h6>
+            <button (click)="myfile.click()">Upload Photo</button>
+            <input style="display: none;" type="file" (change)="onFileChange($event)" #myfile>
+            <h6>Get your profile verified with an ID proof</h6>
+            <button (click)="verifyProfile()">Verify Your Profile</button>
+        </div>
+    </div>
+</div>
